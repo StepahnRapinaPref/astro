@@ -1,14 +1,1466 @@
 {
+  "aries": {
+    "0": {
+      "frase": "",
+      "imagem": "aries_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "aries_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "aries_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "aries_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "aries_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "aries_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "aries_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "aries_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "aries_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "aries_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "aries_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "aries_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "aries_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "aries_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "aries_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "aries_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "aries_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "aries_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "aries_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "aries_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "aries_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "aries_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "aries_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "aries_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "aries_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "aries_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "aries_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "aries_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "aries_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "aries_29.jpg"
+    }
+  },
+  "touro": {
+    "0": {
+      "frase": "",
+      "imagem": "touro_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "touro_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "touro_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "touro_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "touro_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "touro_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "touro_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "touro_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "touro_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "touro_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "touro_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "touro_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "touro_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "touro_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "touro_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "touro_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "touro_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "touro_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "touro_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "touro_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "touro_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "touro_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "touro_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "touro_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "touro_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "touro_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "touro_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "touro_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "touro_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "touro_29.jpg"
+    }
+  },
+  "gemeos": {
+    "0": {
+      "frase": "",
+      "imagem": "gemeos_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "gemeos_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "gemeos_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "gemeos_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "gemeos_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "gemeos_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "gemeos_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "gemeos_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "gemeos_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "gemeos_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "gemeos_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "gemeos_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "gemeos_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "gemeos_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "gemeos_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "gemeos_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "gemeos_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "gemeos_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "gemeos_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "gemeos_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "gemeos_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "gemeos_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "gemeos_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "gemeos_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "gemeos_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "gemeos_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "gemeos_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "gemeos_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "gemeos_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "gemeos_29.jpg"
+    }
+  },
+  "cancer": {
+    "0": {
+      "frase": "",
+      "imagem": "cancer_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "cancer_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "cancer_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "cancer_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "cancer_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "cancer_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "cancer_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "cancer_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "cancer_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "cancer_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "cancer_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "cancer_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "cancer_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "cancer_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "cancer_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "cancer_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "cancer_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "cancer_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "cancer_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "cancer_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "cancer_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "cancer_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "cancer_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "cancer_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "cancer_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "cancer_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "cancer_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "cancer_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "cancer_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "cancer_29.jpg"
+    }
+  },
+  "leao": {
+    "0": {
+      "frase": "",
+      "imagem": "leao_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "leao_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "leao_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "leao_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "leao_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "leao_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "leao_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "leao_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "leao_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "leao_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "leao_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "leao_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "leao_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "leao_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "leao_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "leao_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "leao_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "leao_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "leao_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "leao_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "leao_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "leao_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "leao_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "leao_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "leao_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "leao_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "leao_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "leao_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "leao_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "leao_29.jpg"
+    }
+  },
+  "virgem": {
+    "0": {
+      "frase": "",
+      "imagem": "virgem_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "virgem_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "virgem_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "virgem_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "virgem_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "virgem_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "virgem_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "virgem_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "virgem_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "virgem_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "virgem_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "virgem_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "virgem_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "virgem_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "virgem_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "virgem_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "virgem_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "virgem_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "virgem_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "virgem_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "virgem_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "virgem_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "virgem_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "virgem_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "virgem_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "virgem_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "virgem_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "virgem_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "virgem_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "virgem_29.jpg"
+    }
+  },
+  "libra": {
+    "0": {
+      "frase": "",
+      "imagem": "libra_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "libra_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "libra_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "libra_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "libra_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "libra_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "libra_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "libra_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "libra_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "libra_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "libra_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "libra_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "libra_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "libra_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "libra_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "libra_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "libra_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "libra_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "libra_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "libra_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "libra_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "libra_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "libra_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "libra_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "libra_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "libra_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "libra_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "libra_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "libra_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "libra_29.jpg"
+    }
+  },
+  "escorpiao": {
+    "0": {
+      "frase": "",
+      "imagem": "escorpiao_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "escorpiao_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "escorpiao_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "escorpiao_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "escorpiao_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "escorpiao_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "escorpiao_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "escorpiao_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "escorpiao_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "escorpiao_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "escorpiao_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "escorpiao_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "escorpiao_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "escorpiao_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "escorpiao_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "escorpiao_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "escorpiao_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "escorpiao_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "escorpiao_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "escorpiao_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "escorpiao_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "escorpiao_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "escorpiao_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "escorpiao_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "escorpiao_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "escorpiao_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "escorpiao_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "escorpiao_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "escorpiao_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "escorpiao_29.jpg"
+    }
+  },
   "sagitario": {
     "0": {
-      "frase": "Um arqueiro solitário observa o horizonte distante, consciente de que cada escolha aponta para um destino maior. O impulso de expandir a mente se mistura ao desejo de compreender verdades universais.",
+      "frase": "",
       "imagem": "sagitario_0.jpg"
     },
     "1": {
-      "frase": "Uma chama interna impulsiona a busca por significado, mesmo quando o caminho parece incerto e repleto de desafios simbólicos.",
+      "frase": "",
       "imagem": "sagitario_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "sagitario_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "sagitario_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "sagitario_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "sagitario_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "sagitario_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "sagitario_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "sagitario_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "sagitario_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "sagitario_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "sagitario_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "sagitario_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "sagitario_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "sagitario_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "sagitario_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "sagitario_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "sagitario_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "sagitario_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "sagitario_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "sagitario_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "sagitario_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "sagitario_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "sagitario_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "sagitario_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "sagitario_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "sagitario_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "sagitario_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "sagitario_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "sagitario_29.jpg"
+    }
+  },
+  "capricornio": {
+    "0": {
+      "frase": "",
+      "imagem": "capricornio_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "capricornio_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "capricornio_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "capricornio_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "capricornio_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "capricornio_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "capricornio_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "capricornio_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "capricornio_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "capricornio_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "capricornio_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "capricornio_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "capricornio_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "capricornio_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "capricornio_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "capricornio_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "capricornio_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "capricornio_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "capricornio_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "capricornio_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "capricornio_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "capricornio_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "capricornio_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "capricornio_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "capricornio_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "capricornio_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "capricornio_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "capricornio_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "capricornio_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "capricornio_29.jpg"
+    }
+  },
+  "aquario": {
+    "0": {
+      "frase": "",
+      "imagem": "aquario_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "aquario_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "aquario_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "aquario_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "aquario_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "aquario_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "aquario_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "aquario_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "aquario_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "aquario_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "aquario_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "aquario_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "aquario_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "aquario_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "aquario_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "aquario_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "aquario_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "aquario_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "aquario_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "aquario_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "aquario_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "aquario_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "aquario_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "aquario_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "aquario_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "aquario_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "aquario_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "aquario_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "aquario_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "aquario_29.jpg"
+    }
+  },
+  "peixes": {
+    "0": {
+      "frase": "",
+      "imagem": "peixes_0.jpg"
+    },
+    "1": {
+      "frase": "",
+      "imagem": "peixes_1.jpg"
+    },
+    "2": {
+      "frase": "",
+      "imagem": "peixes_2.jpg"
+    },
+    "3": {
+      "frase": "",
+      "imagem": "peixes_3.jpg"
+    },
+    "4": {
+      "frase": "",
+      "imagem": "peixes_4.jpg"
+    },
+    "5": {
+      "frase": "",
+      "imagem": "peixes_5.jpg"
+    },
+    "6": {
+      "frase": "",
+      "imagem": "peixes_6.jpg"
+    },
+    "7": {
+      "frase": "",
+      "imagem": "peixes_7.jpg"
+    },
+    "8": {
+      "frase": "",
+      "imagem": "peixes_8.jpg"
+    },
+    "9": {
+      "frase": "",
+      "imagem": "peixes_9.jpg"
+    },
+    "10": {
+      "frase": "",
+      "imagem": "peixes_10.jpg"
+    },
+    "11": {
+      "frase": "",
+      "imagem": "peixes_11.jpg"
+    },
+    "12": {
+      "frase": "",
+      "imagem": "peixes_12.jpg"
+    },
+    "13": {
+      "frase": "",
+      "imagem": "peixes_13.jpg"
+    },
+    "14": {
+      "frase": "",
+      "imagem": "peixes_14.jpg"
+    },
+    "15": {
+      "frase": "",
+      "imagem": "peixes_15.jpg"
+    },
+    "16": {
+      "frase": "",
+      "imagem": "peixes_16.jpg"
+    },
+    "17": {
+      "frase": "",
+      "imagem": "peixes_17.jpg"
+    },
+    "18": {
+      "frase": "",
+      "imagem": "peixes_18.jpg"
+    },
+    "19": {
+      "frase": "",
+      "imagem": "peixes_19.jpg"
+    },
+    "20": {
+      "frase": "",
+      "imagem": "peixes_20.jpg"
+    },
+    "21": {
+      "frase": "",
+      "imagem": "peixes_21.jpg"
+    },
+    "22": {
+      "frase": "",
+      "imagem": "peixes_22.jpg"
+    },
+    "23": {
+      "frase": "",
+      "imagem": "peixes_23.jpg"
+    },
+    "24": {
+      "frase": "",
+      "imagem": "peixes_24.jpg"
+    },
+    "25": {
+      "frase": "",
+      "imagem": "peixes_25.jpg"
+    },
+    "26": {
+      "frase": "",
+      "imagem": "peixes_26.jpg"
+    },
+    "27": {
+      "frase": "",
+      "imagem": "peixes_27.jpg"
+    },
+    "28": {
+      "frase": "",
+      "imagem": "peixes_28.jpg"
+    },
+    "29": {
+      "frase": "",
+      "imagem": "peixes_29.jpg"
     }
   }
 }
-
-
