@@ -127,7 +127,22 @@ const ZOOM_MIN = 1;
 const ZOOM_MAX = 3;
 const ZOOM_STEP = 0.2;
 
+function limitar(valor, min, max) {
+  return Math.min(Math.max(valor, min), max);
+}
+
 function aplicarTransformacao() {
+  const rect = lightboxImg.getBoundingClientRect();
+
+  const excessoX = (rect.width * zoomLevel - window.innerWidth) / 2;
+  const excessoY = (rect.height * zoomLevel - window.innerHeight) / 2;
+
+  const limiteX = excessoX > 0 ? excessoX : 0;
+  const limiteY = excessoY > 0 ? excessoY : 0;
+
+  translateX = limitar(translateX, -limiteX, limiteX);
+  translateY = limitar(translateY, -limiteY, limiteY);
+
   lightboxImg.style.transform =
     `scale(${zoomLevel}) translate(${translateX}px, ${translateY}px)`;
 }
