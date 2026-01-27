@@ -137,3 +137,11 @@ body {
 .lightbox .next {
   right: 20px;
 }
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 85%;
+  cursor: zoom-in;
+  transition: transform 0.25s ease;
+  transform-origin: center center;
+}
