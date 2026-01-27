@@ -210,19 +210,27 @@ const lbNext = document.getElementById("lb-next");
 // Abre lightbox
 function abrirLightbox(src) {
   zoomLevel = 1;
-  lightboxImg.style.transform = "scale(1)";
+  translateX = 0;
+  translateY = 0;
+
+  lightboxImg.style.transform = "scale(1) translate(0,0)";
   lightboxImg.src = src;
   lightbox.classList.remove("hidden");
 }
 
 
+
 // Fecha lightbox
 function fecharLightbox() {
   zoomLevel = 1;
-  lightboxImg.style.transform = "scale(1)";
+  translateX = 0;
+  translateY = 0;
+
+  lightboxImg.style.transform = "scale(1) translate(0,0)";
   lightbox.classList.add("hidden");
   lightboxImg.src = "";
 }
+
 
 let zoomLevel = 1;
 const ZOOM_MIN = 1;
@@ -245,7 +253,11 @@ lightbox.addEventListener("wheel", (e) => {
   if (zoomLevel < ZOOM_MIN) zoomLevel = ZOOM_MIN;
   if (zoomLevel > ZOOM_MAX) zoomLevel = ZOOM_MAX;
 
-  aplicarZoom();
+  function aplicarTransformacao() {
+  lightboxImg.style.transform =
+    `scale(${zoomLevel}) translate(${translateX}px, ${translateY}px)`;
+}
+
 }, { passive: false });
 
 // Clique na imagem principal → abre
@@ -254,6 +266,11 @@ document.addEventListener("click", (e) => {
     abrirLightbox(e.target.src);
   }
 });
+let isDragging = false;
+let startX = 0;
+let startY = 0;
+let translateX = 0;
+let translateY = 0;
 
 // Clique fora da imagem → fecha
 lightbox.addEventListener("click", (e) => {
@@ -278,5 +295,29 @@ lbPrev.addEventListener("click", (e) => {
   lightboxImg.style.transform = "scale(1)";
   lightboxImg.src = document.querySelector("#resultado img").src;
 });
+lightboxImg.addEventListener("mousedown", (e) => {
+  if (zoomLevel <= 1) return;
+
+  isDragging = true;
+  lightboxImg.classList.add("dragging");
+
+  startX = e.clientX - translateX;
+  startY = e.clientY - translateY;
+});
+
+document.addEventListener("mousemove", (e) => {
+  if (!isDragging) return;
+
+  translateX = e.clientX - startX;
+  translateY = e.clientY - startY;
+
+  aplicarTransformacao();
+});
+
+document.addEventListener("mouseup", () => {
+  isDragging = false;
+  lightboxImg.classList.remove("dragging");
+});
+
 
 
