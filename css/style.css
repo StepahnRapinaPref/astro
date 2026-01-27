@@ -141,7 +141,13 @@ body {
 .lightbox img {
   max-width: 90%;
   max-height: 85%;
-  cursor: zoom-in;
+  cursor: grab;
   transition: transform 0.25s ease;
   transform-origin: center center;
 }
+
+.lightbox img.dragging {
+  cursor: grabbing;
+}
+
+
