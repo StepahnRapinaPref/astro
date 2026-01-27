@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard Astrológico</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <div id="lightbox" class="lightbox hidden">
+    <button class="nav prev" id="lb-prev">❮</button>
+
+    <img id="lightbox-img" src="" alt="Imagem ampliada" />
+
+    <button class="nav next" id="lb-next">❯</button>
+  </div>
+
+  <body>
+    <main class="dashboard">
+      <h1>Pesquisa de Graus Simbólicos</h1>
+
+      <section class="pesquisa">
+        <label>
+          Signo:
+          <select id="signo">
+            <option value="">Selecione o signo</option>
+            <option value="aries">Áries</option>
+            <option value="touro">Touro</option>
+            <option value="gemeos">Gêmeos</option>
+            <option value="cancer">Câncer</option>
+            <option value="leao">Leão</option>
+            <option value="virgem">Virgem</option>
+            <option value="libra">Libra</option>
+            <option value="escorpiao">Escorpião</option>
+            <option value="sagitario">Sagitário</option>
+            <option value="capricornio">Capricórnio</option>
+            <option value="aquario">Aquário</option>
+            <option value="peixes">Peixes</option>
+          </select>
+        </label>
+
+        <label>
+          Grau (1–30):
+          <input type="number" id="grau" min="1" max="30" />
+        </label>
+
+        <button id="buscar">Pesquisar</button>
+      </section>
+      <div class="slider-container">
+        <input
+          type="range"
+          id="slider-grau"
+          min="1"
+          max="30"
+          step="1"
+          value="1"
+        />
+        <span id="slider-valor">1</span>
+      </div>
+      <div class="nav-graus">
+        <button id="grau-menos">− Grau</button>
+        <button id="grau-mais">+ Grau</button>
+      </div>
+
+      <div id="resultado" class="resultado fade"></div>
+
+      <section class="resultado" id="resultado">
+        <!-- Resultado aparece aqui -->
+      </section>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
