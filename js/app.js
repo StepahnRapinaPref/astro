@@ -209,15 +209,44 @@ const lbNext = document.getElementById("lb-next");
 
 // Abre lightbox
 function abrirLightbox(src) {
+  zoomLevel = 1;
+  lightboxImg.style.transform = "scale(1)";
   lightboxImg.src = src;
   lightbox.classList.remove("hidden");
 }
 
+
 // Fecha lightbox
 function fecharLightbox() {
+  zoomLevel = 1;
+  lightboxImg.style.transform = "scale(1)";
   lightbox.classList.add("hidden");
   lightboxImg.src = "";
 }
+
+let zoomLevel = 1;
+const ZOOM_MIN = 1;
+const ZOOM_MAX = 3;
+const ZOOM_STEP = 0.2;
+function aplicarZoom() {
+  lightboxImg.style.transform = `scale(${zoomLevel})`;
+}
+lightbox.addEventListener("wheel", (e) => {
+  e.preventDefault();
+
+  if (e.deltaY < 0) {
+    // Zoom in
+    zoomLevel += ZOOM_STEP;
+  } else {
+    // Zoom out
+    zoomLevel -= ZOOM_STEP;
+  }
+
+  if (zoomLevel < ZOOM_MIN) zoomLevel = ZOOM_MIN;
+  if (zoomLevel > ZOOM_MAX) zoomLevel = ZOOM_MAX;
+
+  aplicarZoom();
+}, { passive: false });
 
 // Clique na imagem principal → abre
 document.addEventListener("click", (e) => {
@@ -237,11 +266,17 @@ lightbox.addEventListener("click", (e) => {
 lbNext.addEventListener("click", (e) => {
   e.stopPropagation();
   ajustarGrau(1);
+  zoomLevel = 1;
+  lightboxImg.style.transform = "scale(1)";
   lightboxImg.src = document.querySelector("#resultado img").src;
 });
 
 lbPrev.addEventListener("click", (e) => {
   e.stopPropagation();
   ajustarGrau(-1);
+  zoomLevel = 1;
+  lightboxImg.style.transform = "scale(1)";
   lightboxImg.src = document.querySelector("#resultado img").src;
 });
+
+
