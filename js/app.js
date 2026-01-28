@@ -27,6 +27,19 @@ const signos = [
   "aquario",
   "peixes",
 ];
+const modal = document.getElementById("disclaimer-modal");
+const fechar = document.getElementById("fechar-disclaimer");
+
+// Exibe na primeira visita
+if (!localStorage.getItem("disclaimer_visto")) {
+  modal.classList.remove("hidden");
+}
+
+fechar.addEventListener("click", () => {
+  modal.classList.add("hidden");
+  localStorage.setItem("disclaimer_visto", "true");
+});
+
 
 // ===============================
 // RENDERIZAÇÃO
@@ -230,4 +243,5 @@ if (lightbox && lightboxImg) {
     });
   }
 }}
+
 
