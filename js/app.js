@@ -14,11 +14,19 @@ const btnMais = document.getElementById("grau-mais");
 const btnMenos = document.getElementById("grau-menos");
 
 const signos = [
-  "aries","touro","gemeos","cancer","leao","virgem",
-  "libra","escorpiao","sagitario","capricornio","aquario","peixes"
+  "aries",
+  "touro",
+  "gemeos",
+  "cancer",
+  "leao",
+  "virgem",
+  "libra",
+  "escorpiao",
+  "sagitario",
+  "capricornio",
+  "aquario",
+  "peixes",
 ];
-
-let ultimoGrauSlider = 1;
 
 // ===============================
 // RENDERIZAÇÃO
@@ -35,7 +43,7 @@ function renderizarResultadoAnimado(html) {
 }
 
 // ===============================
-// AJUSTE DE GRAU
+// AJUSTE DE GRAU / SIGNO
 // ===============================
 function ajustarGrau(delta) {
   let grauAtual = Number(campoGrau.value) || 1;
@@ -64,7 +72,7 @@ function ajustarGrau(delta) {
 }
 
 // ===============================
-// BUSCA
+// BUSCA PRINCIPAL
 // ===============================
 async function executarBusca() {
   const signo = campoSigno.value;
@@ -83,7 +91,7 @@ async function executarBusca() {
   const html = `
     <h2>${item.titulo}</h2>
     <p>${item.frase}</p>
-    <img src="images/monomeros/${item.imagem}">
+    <img src="images/monomeros/${item.imagem}" alt="Imagem simbólica">
     <div>
       <p><strong>Figura.</strong> ${item.texto.figura}</p>
       <p><strong>Comentário.</strong> ${item.texto.comentario}</p>
@@ -102,14 +110,14 @@ botao.addEventListener("click", executarBusca);
 btnMais.addEventListener("click", () => ajustarGrau(1));
 btnMenos.addEventListener("click", () => ajustarGrau(-1));
 
-document.addEventListener("keydown", e => {
+document.addEventListener("keydown", (e) => {
   if (e.key === "Enter") executarBusca();
   if (e.key === "ArrowRight") ajustarGrau(1);
   if (e.key === "ArrowLeft") ajustarGrau(-1);
 });
 
 // ===============================
-// LIGHTBOX + ZOOM + PAN
+// LIGHTBOX + ZOOM + PAN (CORRIGIDO)
 // ===============================
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
@@ -127,24 +135,21 @@ const ZOOM_MIN = 1;
 const ZOOM_MAX = 3;
 const ZOOM_STEP = 0.2;
 
-function limitar(valor, min, max) {
-  return Math.min(Math.max(valor, min), max);
+function limitar(v, min, max) {
+  return Math.min(Math.max(v, min), max);
 }
 
 function aplicarTransformacao() {
-  const rect = lightboxImg.getBoundingClientRect();
+  const imgW = lightboxImg.naturalWidth * zoomLevel;
+  const imgH = lightboxImg.naturalHeight * zoomLevel;
 
-  const excessoX = (rect.width * zoomLevel - window.innerWidth) / 2;
-  const excessoY = (rect.height * zoomLevel - window.innerHeight) / 2;
-
-  const limiteX = excessoX > 0 ? excessoX : 0;
-  const limiteY = excessoY > 0 ? excessoY : 0;
+  const limiteX = Math.max(0, (imgW - window.innerWidth) / 2);
+  const limiteY = Math.max(0, (imgH - window.innerHeight) / 2);
 
   translateX = limitar(translateX, -limiteX, limiteX);
   translateY = limitar(translateY, -limiteY, limiteY);
 
-  lightboxImg.style.transform =
-    `scale(${zoomLevel}) translate(${translateX}px, ${translateY}px)`;
+  lightboxImg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${zoomLevel})`;
 }
 
 function resetarTransformacao() {
@@ -165,45 +170,69 @@ function fecharLightbox() {
   lightboxImg.src = "";
 }
 
-document.addEventListener("click", e => {
+// Abrir ao clicar na imagem
+document.addEventListener("click", (e) => {
   if (e.target.matches("#resultado img")) abrirLightbox(e.target.src);
 });
 
-lightbox.addEventListener("click", e => {
-  if (e.target === lightbox || e.target === lightboxImg) fecharLightbox();
+// Fechar ao clicar fora
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) fecharLightbox();
 });
 
-lightbox.addEventListener("wheel", e => {
-  e.preventDefault();
-  zoomLevel += e.deltaY < 0 ? ZOOM_STEP : -ZOOM_STEP;
-  zoomLevel = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, zoomLevel));
-  aplicarTransformacao();
-}, { passive: false });
+// Zoom com scroll
+lightbox.addEventListener(
+  "wheel",
+  (e) => {
+    e.preventDefault();
+    zoomLevel += e.deltaY < 0 ? ZOOM_STEP : -ZOOM_STEP;
+    zoomLevel = limitar(zoomLevel, ZOOM_MIN, ZOOM_MAX);
+    aplicarTransformacao();
+  },
+  { passive: false },
+);
 
-lightboxImg.addEventListener("mousedown", e => {
+// ===============================
+// PAN COM POINTER EVENTS (FIX DEFINITIVO)
+// ===============================
+lightboxImg.addEventListener("pointerdown", (e) => {
   if (zoomLevel <= 1) return;
+
   isDragging = true;
+  lightboxImg.setPointerCapture(e.pointerId);
+
   startX = e.clientX - translateX;
   startY = e.clientY - translateY;
 });
 
-document.addEventListener("mousemove", e => {
+lightboxImg.addEventListener("pointermove", (e) => {
   if (!isDragging) return;
+
   translateX = e.clientX - startX;
   translateY = e.clientY - startY;
   aplicarTransformacao();
 });
 
-document.addEventListener("mouseup", () => isDragging = false);
+lightboxImg.addEventListener("pointerup", (e) => {
+  isDragging = false;
+  lightboxImg.releasePointerCapture(e.pointerId);
+});
 
-lbNext.addEventListener("click", e => {
+lightboxImg.addEventListener("pointercancel", () => {
+  isDragging = false;
+});
+
+// ===============================
+// NAVEGAÇÃO DENTRO DO LIGHTBOX
+// ===============================
+lbNext.addEventListener("click", (e) => {
   e.stopPropagation();
   ajustarGrau(1);
   resetarTransformacao();
   lightboxImg.src = document.querySelector("#resultado img").src;
 });
 
-lbPrev.addEventListener("click", e => {
+lbPrev.addEventListener("click", (e) => {
   e.stopPropagation();
   ajustarGrau(-1);
   resetarTransformacao();
