@@ -5,15 +5,16 @@
     <title>Dashboard Astrológico</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <div id="lightbox" class="lightbox hidden">
-    <button class="nav prev" id="lb-prev">❮</button>
-
-    <img id="lightbox-img" src="" alt="Imagem ampliada" />
-
-    <button class="nav next" id="lb-next">❯</button>
-  </div>
 
   <body>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox hidden">
+      <button class="nav prev" id="lb-prev">❮</button>
+      <img id="lightbox-img" src="" alt="Imagem ampliada" />
+      <button class="nav next" id="lb-next">❯</button>
+    </div>
+
     <main class="dashboard">
       <h1>Pesquisa de Graus Simbólicos</h1>
 
@@ -44,59 +45,53 @@
 
         <button id="buscar">Pesquisar</button>
       </section>
+
       <div class="slider-container">
-        <input
-          type="range"
-          id="slider-grau"
-          min="1"
-          max="30"
-          step="1"
-          value="1"
-        />
+        <input type="range" id="slider-grau" min="1" max="30" step="1" value="1" />
         <span id="slider-valor">1</span>
       </div>
+
       <div class="nav-graus">
         <button id="grau-menos">− Grau</button>
         <button id="grau-mais">+ Grau</button>
       </div>
 
-      <div id="resultado" class="resultado fade"></div>
-
-      <section class="resultado" id="resultado">
+      <!-- RESULTADO (APENAS UM!) -->
+      <section id="resultado" class="resultado fade">
         <!-- Resultado aparece aqui -->
       </section>
     </main>
 
+    <!-- DISCLAIMER -->
+    <div id="disclaimer-modal" class="modal hidden">
+      <div class="modal-box">
+        <button class="modal-close" id="fechar-disclaimer">×</button>
+
+        <h2>ℹ️ Como utilizar esta ferramenta</h2>
+
+        <p><strong>Sobre os graus simbólicos</strong></p>
+        <p>
+          Os graus apresentados seguem o princípio dos graus simbólicos.
+          Não existe grau zero. Cada imagem representa o conteúdo que se inicia
+          no primeiro minuto do grau e se estende até o grau completo.
+        </p>
+
+        <p>
+          <strong>Exemplo:</strong><br>
+          • 15°16' → utilizar o 16º grau<br>
+          • 5º grau de Áries → representa 4°01' até 5°00'
+        </p>
+
+        <p><strong>Advertência</strong></p>
+        <p>
+          Algumas imagens possuem conteúdo simbólico intenso ou sensível.
+          O material é educativo e interpretativo.
+        </p>
+      </div>
+    </div>
+
+    <!-- SCRIPT SEMPRE POR ÚLTIMO -->
     <script src="js/app.js"></script>
-    
+
   </body>
-  <div id="disclaimer-modal" class="modal hidden">
-  <div class="modal-box">
-    <button class="modal-close" id="fechar-disclaimer">×</button>
-
-    <h2>ℹ️ Como utilizar esta ferramenta</h2>
-
-    <p><strong>Sobre os graus simbólicos</strong></p>
-    <p>
-      Os graus apresentados seguem o princípio dos graus simbólicos.
-      Não existe grau zero. Cada imagem representa o conteúdo que se inicia
-      no primeiro minuto do grau e se estende até o grau completo.
-    </p>
-
-    <p>
-      <strong>Exemplo:</strong><br>
-      • 15°16' → utilizar o 16º grau<br>
-      • 5º grau de Áries → representa 4°01' até 5°00'
-    </p>
-
-    <p><strong>Advertência</strong></p>
-    <p>
-      Algumas imagens possuem conteúdo simbólico intenso ou sensível.
-      O material é educativo e interpretativo.
-    </p>
-  </div>
-</div>
-
 </html>
-
-
