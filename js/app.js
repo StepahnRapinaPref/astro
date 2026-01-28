@@ -125,11 +125,11 @@ const lbPrev = document.getElementById("lb-prev");
 const lbNext = document.getElementById("lb-next");
 
 let zoomLevel = 1;
-let translateX = 1;
-let translateY = 1;
+let translateX = 0;
+let translateY = 0;
 let isDragging = false;
-let startX = 1;
-let startY = 1;
+let startX = 0;
+let startY = 0;
 
 const ZOOM_MIN = 1;
 const ZOOM_MAX = 3;
@@ -238,4 +238,5 @@ lbPrev.addEventListener("click", (e) => {
   resetarTransformacao();
   lightboxImg.src = document.querySelector("#resultado img").src;
 });
+
 
