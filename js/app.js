@@ -236,39 +236,41 @@ lightbox.addEventListener(
 );
 
 // ===============================
-// ZOOM POR BOTÕES (+ / −)
+// ZOOM POR BOTÕES (+ / −) — SEGURO
 // ===============================
 const btnZoomIn = document.getElementById("zoom-in");
 const btnZoomOut = document.getElementById("zoom-out");
 
-let zoomLevel = 1;
-const ZOOM_MIN = 1;
-const ZOOM_MAX = 3;
-const ZOOM_STEP = 0.2;
+if (btnZoomIn && btnZoomOut && typeof lightboxImg !== "undefined") {
+  let zoomLevel = 1;
+  const ZOOM_MIN = 1;
+  const ZOOM_MAX = 3;
+  const ZOOM_STEP = 0.2;
 
-function aplicarZoom() {
-  lightboxImg.style.transform = `scale(${zoomLevel})`;
+  function aplicarZoom() {
+    lightboxImg.style.transform = `scale(${zoomLevel})`;
+  }
+
+  // Reset sempre que abrir imagem
+  document.addEventListener("click", (e) => {
+    if (e.target.matches("#resultado img")) {
+      zoomLevel = 1;
+      aplicarZoom();
+    }
+  });
+
+  btnZoomIn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    zoomLevel = Math.min(ZOOM_MAX, zoomLevel + ZOOM_STEP);
+    aplicarZoom();
+  });
+
+  btnZoomOut.addEventListener("click", (e) => {
+    e.stopPropagation();
+    zoomLevel = Math.max(ZOOM_MIN, zoomLevel - ZOOM_STEP);
+    aplicarZoom();
+  });
 }
 
-// Reset sempre que abrir a imagem
-document.addEventListener("click", (e) => {
-  if (e.target.matches("#resultado img")) {
-    zoomLevel = 1;
-    aplicarZoom();
-  }
-});
 
-// Zoom +
-btnZoomIn.addEventListener("click", (e) => {
-  e.stopPropagation();
-  zoomLevel = Math.min(ZOOM_MAX, zoomLevel + ZOOM_STEP);
-  aplicarZoom();
-});
-
-// Zoom −
-btnZoomOut.addEventListener("click", (e) => {
-  e.stopPropagation();
-  zoomLevel = Math.max(ZOOM_MIN, zoomLevel - ZOOM_STEP);
-  aplicarZoom();
-});
 
