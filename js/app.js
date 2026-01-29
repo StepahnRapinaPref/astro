@@ -1,5 +1,5 @@
 // ===============================
-// SELETORES
+// SELETORES PRINCIPAIS
 // ===============================
 const botao = document.getElementById("buscar");
 const resultado = document.getElementById("resultado");
@@ -13,6 +13,9 @@ const sliderValor = document.getElementById("slider-valor");
 const btnMais = document.getElementById("grau-mais");
 const btnMenos = document.getElementById("grau-menos");
 
+// ===============================
+// CONSTANTES
+// ===============================
 const signos = [
   "aries",
   "touro",
@@ -27,19 +30,6 @@ const signos = [
   "aquario",
   "peixes",
 ];
-const modal = document.getElementById("disclaimer-modal");
-const fechar = document.getElementById("fechar-disclaimer");
-
-// Exibe na primeira visita
-if (!localStorage.getItem("disclaimer_visto")) {
-  modal.classList.remove("hidden");
-}
-
-fechar.addEventListener("click", () => {
-  modal.classList.add("hidden");
-  localStorage.setItem("disclaimer_visto", "true");
-});
-
 
 // ===============================
 // RENDERIZAÇÃO
@@ -52,7 +42,7 @@ function renderizarResultadoAnimado(html) {
     resultado.innerHTML = html;
     resultado.classList.remove("fade-out");
     resultado.classList.add("fade-in");
-  }, 300);
+  }, 250);
 }
 
 // ===============================
@@ -63,20 +53,20 @@ function ajustarGrau(delta) {
   let signoAtual = campoSigno.value;
   if (!signoAtual) return;
 
-  let indiceSigno = signos.indexOf(signoAtual);
+  let indice = signos.indexOf(signoAtual);
   let novoGrau = grauAtual + delta;
 
   if (novoGrau > 30) {
     novoGrau = 1;
-    indiceSigno = (indiceSigno + 1) % signos.length;
+    indice = (indice + 1) % signos.length;
   }
 
   if (novoGrau < 1) {
     novoGrau = 30;
-    indiceSigno = (indiceSigno - 1 + signos.length) % signos.length;
+    indice = (indice - 1 + signos.length) % signos.length;
   }
 
-  campoSigno.value = signos[indiceSigno];
+  campoSigno.value = signos[indice];
   campoGrau.value = novoGrau;
   sliderGrau.value = novoGrau;
   sliderValor.textContent = novoGrau;
@@ -92,156 +82,121 @@ async function executarBusca() {
   const grau = Number(campoGrau.value);
 
   if (!signo || grau < 1 || grau > 30) {
-    resultado.innerHTML = "<p>Selecione signo e grau válidos.</p>";
+    resultado.innerHTML = "<p>Selecione um signo e um grau entre 1 e 30.</p>";
     return;
   }
 
-  const resposta = await fetch("data/monomeros.json");
-  const dados = await resposta.json();
-  const item = dados[signo]?.[grau];
-  if (!item) return;
+  try {
+    const resposta = await fetch("data/monomeros.json");
+    const dados = await resposta.json();
+    const item = dados[signo]?.[grau];
 
-  const html = `
-    <h2>${item.titulo}</h2>
-    <p>${item.frase}</p>
-    <img src="images/monomeros/${item.imagem}" alt="Imagem simbólica">
-    <div>
-      <p><strong>Figura.</strong> ${item.texto.figura}</p>
-      <p><strong>Comentário.</strong> ${item.texto.comentario}</p>
-      <p><strong>Correspondências.</strong> ${item.texto.correspondencias}</p>
-      <p><strong>Advertência.</strong> ${item.texto.advertencia}</p>
-    </div>
-  `;
+    if (!item) {
+      resultado.innerHTML = "<p>Grau não encontrado.</p>";
+      return;
+    }
 
-  renderizarResultadoAnimado(html);
+    const html = `
+      <h2>${item.titulo}</h2>
+      <p>${item.frase}</p>
+      <img src="images/monomeros/${item.imagem}" alt="Imagem simbólica do grau">
+      <div class="texto">
+        <p><strong>Figura.</strong> ${item.texto.figura}</p>
+        <p><strong>Comentário.</strong> ${item.texto.comentario}</p>
+        <p><strong>Correspondências.</strong> ${item.texto.correspondencias}</p>
+        <p><strong>Advertência.</strong> ${item.texto.advertencia}</p>
+      </div>
+    `;
+
+    renderizarResultadoAnimado(html);
+  } catch (e) {
+    resultado.innerHTML = "<p>Erro ao carregar os dados.</p>";
+    console.error(e);
+  }
 }
 
 // ===============================
-// EVENTOS GERAIS
+// EVENTOS DE BUSCA
 // ===============================
 botao.addEventListener("click", executarBusca);
+
 btnMais.addEventListener("click", () => ajustarGrau(1));
 btnMenos.addEventListener("click", () => ajustarGrau(-1));
+
+sliderGrau.addEventListener("input", () => {
+  campoGrau.value = sliderGrau.value;
+  sliderValor.textContent = sliderGrau.value;
+  executarBusca();
+});
 
 document.addEventListener("keydown", (e) => {
   if (e.key === "Enter") executarBusca();
   if (e.key === "ArrowRight") ajustarGrau(1);
   if (e.key === "ArrowLeft") ajustarGrau(-1);
 });
-if (
-  document.getElementById("lightbox") &&
-  document.getElementById("lightbox-img")
-) {
+
 // ===============================
-// LIGHTBOX + ZOOM + PAN (SE EXISTIR)
+// LIGHTBOX (AMPLIAÇÃO SIMPLES)
 // ===============================
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const lbPrev = document.getElementById("lb-prev");
 const lbNext = document.getElementById("lb-next");
 
-if (lightbox && lightboxImg) {
-
-  let zoomLevel = 1;
-  let translateX = 0;
-  let translateY = 0;
-  let isDragging = false;
-  let startX = 0;
-  let startY = 0;
-
-  const ZOOM_MIN = 1;
-  const ZOOM_MAX = 3;
-  const ZOOM_STEP = 0.2;
-
-  function limitar(v, min, max) {
-    return Math.min(Math.max(v, min), max);
-  }
-
-  function aplicarTransformacao() {
-    const rect = lightboxImg.getBoundingClientRect();
-
-    const excessoX = Math.max(0, (rect.width - window.innerWidth) / 2);
-    const excessoY = Math.max(0, (rect.height - window.innerHeight) / 2);
-
-    translateX = limitar(translateX, -excessoX, excessoX);
-    translateY = limitar(translateY, -excessoY, excessoY);
-
-    lightboxImg.style.transform =
-      `translate(${translateX}px, ${translateY}px) scale(${zoomLevel})`;
-  }
-
-  function resetarTransformacao() {
-    zoomLevel = 1;
-    translateX = 0;
-    translateY = 0;
-    lightboxImg.style.transform = "translate(0,0) scale(1)";
-  }
-
-  function abrirLightbox(src) {
-    resetarTransformacao();
-    lightboxImg.src = src;
+document.addEventListener("click", (e) => {
+  if (e.target.matches("#resultado img")) {
+    lightboxImg.src = e.target.src;
     lightbox.classList.remove("hidden");
   }
+});
 
-  function fecharLightbox() {
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
     lightbox.classList.add("hidden");
     lightboxImg.src = "";
   }
+});
 
-  document.addEventListener("click", e => {
-    if (e.target.matches("#resultado img")) {
-      abrirLightbox(e.target.src);
+lbNext.addEventListener("click", (e) => {
+  e.stopPropagation();
+  ajustarGrau(1);
+  lightboxImg.src = document.querySelector("#resultado img").src;
+});
+
+lbPrev.addEventListener("click", (e) => {
+  e.stopPropagation();
+  ajustarGrau(-1);
+  lightboxImg.src = document.querySelector("#resultado img").src;
+});
+
+// ===============================
+// DISCLAIMER (FINAL E CORRETO)
+// ===============================
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById("disclaimer-modal");
+  const btnFechar = document.getElementById("fechar-disclaimer");
+  const btnConfirmar = document.getElementById("confirmar-disclaimer");
+  const chkNaoMostrar = document.getElementById("nao-mostrar-novamente");
+  const btnAbrir = document.getElementById("abrir-disclaimer");
+
+  const STORAGE_KEY = "disclaimer_oculto";
+
+  if (!localStorage.getItem(STORAGE_KEY)) {
+    modal.classList.remove("hidden");
+  }
+
+  btnConfirmar.addEventListener("click", () => {
+    if (chkNaoMostrar.checked) {
+      localStorage.setItem(STORAGE_KEY, "true");
     }
+    modal.classList.add("hidden");
   });
 
-  lightbox.addEventListener("click", e => {
-    if (e.target === lightbox) fecharLightbox();
+  btnFechar.addEventListener("click", () => {
+    modal.classList.add("hidden");
   });
 
-  lightbox.addEventListener("wheel", e => {
-    e.preventDefault();
-    zoomLevel += e.deltaY < 0 ? ZOOM_STEP : -ZOOM_STEP;
-    zoomLevel = limitar(zoomLevel, ZOOM_MIN, ZOOM_MAX);
-    aplicarTransformacao();
-  }, { passive: false });
-
-  lightboxImg.addEventListener("pointerdown", e => {
-    if (zoomLevel <= 1) return;
-    isDragging = true;
-    lightboxImg.setPointerCapture(e.pointerId);
-    startX = e.clientX - translateX;
-    startY = e.clientY - translateY;
+  btnAbrir.addEventListener("click", () => {
+    modal.classList.remove("hidden");
   });
-
-  lightboxImg.addEventListener("pointermove", e => {
-    if (!isDragging) return;
-    translateX = e.clientX - startX;
-    translateY = e.clientY - startY;
-    aplicarTransformacao();
-  });
-
-  lightboxImg.addEventListener("pointerup", e => {
-    isDragging = false;
-    lightboxImg.releasePointerCapture(e.pointerId);
-  });
-
-  if (lbNext) {
-    lbNext.addEventListener("click", e => {
-      e.stopPropagation();
-      ajustarGrau(1);
-      resetarTransformacao();
-      lightboxImg.src = document.querySelector("#resultado img").src;
-    });
-  }
-
-  if (lbPrev) {
-    lbPrev.addEventListener("click", e => {
-      e.stopPropagation();
-      ajustarGrau(-1);
-      resetarTransformacao();
-      lightboxImg.src = document.querySelector("#resultado img").src;
-    });
-  }
-}}
-
-
+});

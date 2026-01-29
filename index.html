@@ -7,7 +7,6 @@
   </head>
 
   <body>
-
     <!-- LIGHTBOX -->
     <div id="lightbox" class="lightbox hidden">
       <button class="nav prev" id="lb-prev">❮</button>
@@ -47,7 +46,14 @@
       </section>
 
       <div class="slider-container">
-        <input type="range" id="slider-grau" min="1" max="30" step="1" value="1" />
+        <input
+          type="range"
+          id="slider-grau"
+          min="1"
+          max="30"
+          step="1"
+          value="1"
+        />
         <span id="slider-valor">1</span>
       </div>
 
@@ -71,27 +77,46 @@
 
         <p><strong>Sobre os graus simbólicos</strong></p>
         <p>
-          Os graus apresentados seguem o princípio dos graus simbólicos.
-          Não existe grau zero. Cada imagem representa o conteúdo que se inicia
-          no primeiro minuto do grau e se estende até o grau completo.
+          Os graus apresentados seguem o princípio dos graus simbólicos. Não
+          existe grau zero. Cada imagem representa o conteúdo que se inicia no
+          primeiro minuto do grau e se estende até o grau completo.
         </p>
 
         <p>
-          <strong>Exemplo:</strong><br>
-          • 15°16' → utilizar o 16º grau<br>
-          • 5º grau de Áries → representa 4°01' até 5°00'
+          <strong>Exemplo:</strong><br />
+          0°01 de Áries até 1°00 → utilizar o 1º grau<br />
+          0° exato de Áries → final do 30º grau de Peixes<br />
+          15°16' → utilizar o 16º grau<br />
+          5º grau de Áries → 4°01' até 5°00'
         </p>
 
         <p><strong>Advertência</strong></p>
         <p>
-          Algumas imagens possuem conteúdo simbólico intenso ou sensível.
-          O material é educativo e interpretativo.
+          Algumas imagens possuem conteúdo simbólico intenso ou sensível. O
+          material é educativo e interpretativo.
         </p>
+
+        <div class="modal-actions">
+          <label class="nao-mostrar">
+            <input type="checkbox" id="nao-mostrar-novamente" />
+            Não mostrar novamente
+          </label>
+
+          <button id="confirmar-disclaimer" class="btn-confirmar">
+            Confirmar
+          </button>
+        </div>
       </div>
     </div>
 
+    <!-- RODAPÉ (FORA DO MODAL) -->
+    <footer class="rodape">
+      <button id="abrir-disclaimer" class="btn-info">
+        ℹ️ Como usar esta ferramenta
+      </button>
+    </footer>
+
     <!-- SCRIPT SEMPRE POR ÚLTIMO -->
     <script src="js/app.js"></script>
-
   </body>
 </html>
