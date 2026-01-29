@@ -141,7 +141,7 @@ body {
 .lightbox img {
   max-width: 90%;
   max-height: 85%;
-  cursor: grab;
+  cursor: zoom-in;
   transition: transform 0.25s ease;
   transform-origin: center center;
 }
@@ -227,3 +227,4 @@ body {
 .btn-confirmar:hover {
   background: #000;
 }
+
