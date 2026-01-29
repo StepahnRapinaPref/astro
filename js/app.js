@@ -200,3 +200,38 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("hidden");
   });
 });
+// ===============================
+// ZOOM SIMPLES NO LIGHTBOX (SEGURO)
+// ===============================
+let zoomLevel = 1;
+const ZOOM_MIN = 1;
+const ZOOM_MAX = 3;
+const ZOOM_STEP = 0.2;
+
+// Aplica zoom
+function aplicarZoom() {
+  lightboxImg.style.transform = `scale(${zoomLevel})`;
+}
+
+// Reset ao abrir
+document.addEventListener("click", (e) => {
+  if (e.target.matches("#resultado img")) {
+    zoomLevel = 1;
+    aplicarZoom();
+  }
+});
+
+// Zoom com scroll
+lightbox.addEventListener(
+  "wheel",
+  (e) => {
+    e.preventDefault();
+
+    zoomLevel += e.deltaY < 0 ? ZOOM_STEP : -ZOOM_STEP;
+    zoomLevel = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, zoomLevel));
+
+    aplicarZoom();
+  },
+  { passive: false }
+);
+
