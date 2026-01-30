@@ -515,337 +515,188 @@
     
  },
   "gemeos": {
-    "1": {
-      "titulo": "GEMEOS 1",
-      "frase": "",
-      "imagem": "gemeos_1.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "2": {
-      "titulo": "GEMEOS 2",
-      "frase": "",
-      "imagem": "gemeos_2.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "3": {
-      "titulo": "GEMEOS 3",
-      "frase": "",
-      "imagem": "gemeos_3.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "4": {
-      "titulo": "GEMEOS 4",
-      "frase": "",
-      "imagem": "gemeos_4.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "5": {
-      "titulo": "GEMEOS 5",
-      "frase": "",
-      "imagem": "gemeos_5.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "6": {
-      "titulo": "GEMEOS 6",
-      "frase": "",
-      "imagem": "gemeos_6.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "7": {
-      "titulo": "GEMEOS 7",
-      "frase": "",
-      "imagem": "gemeos_7.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "8": {
-      "titulo": "GEMEOS 8",
-      "frase": "",
-      "imagem": "gemeos_8.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "9": {
-      "titulo": "GEMEOS 9",
-      "frase": "",
-      "imagem": "gemeos_9.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "10": {
-      "titulo": "GEMEOS 10",
-      "frase": "",
-      "imagem": "gemeos_10.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "11": {
-      "titulo": "GEMEOS 11",
-      "frase": "",
-      "imagem": "gemeos_11.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "12": {
-      "titulo": "GEMEOS 12",
-      "frase": "",
-      "imagem": "gemeos_12.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "13": {
-      "titulo": "GEMEOS 13",
-      "frase": "",
-      "imagem": "gemeos_13.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "14": {
-      "titulo": "GEMEOS 14",
-      "frase": "",
-      "imagem": "gemeos_14.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "15": {
-      "titulo": "GEMEOS 15",
-      "frase": "",
-      "imagem": "gemeos_15.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "16": {
-      "titulo": "GEMEOS 16",
-      "frase": "",
-      "imagem": "gemeos_16.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "17": {
-      "titulo": "GEMEOS 17",
-      "frase": "",
-      "imagem": "gemeos_17.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "18": {
-      "titulo": "GEMEOS 18",
-      "frase": "",
-      "imagem": "gemeos_18.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "19": {
-      "titulo": "GEMEOS 19",
-      "frase": "",
-      "imagem": "gemeos_19.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "20": {
-      "titulo": "GEMEOS 20",
-      "frase": "",
-      "imagem": "gemeos_20.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "21": {
-      "titulo": "GEMEOS 21",
-      "frase": "",
-      "imagem": "gemeos_21.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "22": {
-      "titulo": "GEMEOS 22",
-      "frase": "",
-      "imagem": "gemeos_22.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "23": {
-      "titulo": "GEMEOS 23",
-      "frase": "",
-      "imagem": "gemeos_23.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "24": {
-      "titulo": "GEMEOS 24",
-      "frase": "",
-      "imagem": "gemeos_24.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "25": {
-      "titulo": "GEMEOS 25",
-      "frase": "",
-      "imagem": "gemeos_25.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "26": {
-      "titulo": "GEMEOS 26",
-      "frase": "",
-      "imagem": "gemeos_26.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "27": {
-      "titulo": "GEMEOS 27",
-      "frase": "",
-      "imagem": "gemeos_27.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "28": {
-      "titulo": "GEMEOS 28",
-      "frase": "",
-      "imagem": "gemeos_28.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "29": {
-      "titulo": "GEMEOS 29",
-      "frase": "",
-      "imagem": "gemeos_29.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "30": {
-      "titulo": "GEMEOS 30",
-      "frase": "",
-      "imagem": "gemeos_30.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    }
+  "1": {
+    "titulo": "GÊMEOS 1",
+    "frase": "Duas crianças, de mãos entrelaçadas, avançam juntas em direção a duas flores-de-lis amarelas que brotam junto a uma árvore de copa espessa.\nOu – Dois homens de mãos dadas.",
+    "imagem": "gemeos_1.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
   },
+  "2": {
+    "titulo": "GÊMEOS 2",
+    "frase": "Um homem escala um muro por meio de uma escada de cordas; entre os dentes traz um punhal, e ao seu lado repousa uma arma de fogo. Mais adiante, um militar arrasta atrás de si dois prisioneiros.\nOu – Um homem armado puxando dois homens nus.",
+    "imagem": "gemeos_2.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "3": {
+    "titulo": "GÊMEOS 3",
+    "frase": "Um trovador, de pé à borda de um rochedo, escuta o rumor de uma cascata que cai a seus pés; outro, sentado na relva, dedilha uma lira.\nOu – Um homem tocando lira.",
+    "imagem": "gemeos_3.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "4": {
+    "titulo": "GÊMEOS 4",
+    "frase": "Em um bosque, dois homens lutam pela partilha de joias e vestes suntuosas roubadas. Não percebem que um terceiro ladrão, oculto, ameaça-os com uma atiradeira; a seus pés já lançou um cinto repleto de ouro.\nOu – Um homem em pé estendendo a mão a outro que se inclina.",
+    "imagem": "gemeos_4.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "5": {
+    "titulo": "GÊMEOS 5",
+    "frase": "Um homem de aspecto digno e benevolente, trajado como ministro de Estado, estende a mão a um delegado que se inclina respeitosamente diante dele.\nOu – Um homem segurando com a mão direita um cinto e com a esquerda uma atiradeira.",
+    "imagem": "gemeos_5.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "6": {
+    "titulo": "GÊMEOS 6",
+    "frase": "À esquerda, uma mulher de semblante amável sustenta em uma mão um livro e na outra uma balança; à direita, um malabarista esguio e flexível executa seus jogos com destreza.\nOu – Um homem segurando com a mão direita uma balança.",
+    "imagem": "gemeos_6.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "7": {
+    "titulo": "GÊMEOS 7",
+    "frase": "Em um vale repousa um lago sereno, onde nada um cisne que se aproxima de duas jovens unidas pelas mãos.\nOu – Duas jovens que se dão as mãos.",
+    "imagem": "gemeos_7.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "8": {
+    "titulo": "GÊMEOS 8",
+    "frase": "É noite: um ferreiro golpeia uma barra de ferro em brasa; junto à forja, sua mulher permanece sentada, ociosa e indiferente às centelhas que incendiaram a casa, já em chamas.\nOu – Um ferreiro batendo ferro, e perto dele uma mulher ociosa.",
+    "imagem": "gemeos_8.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "9": {
+    "titulo": "GÊMEOS 9",
+    "frase": "Um rei está sentado em seu trono, portando cetro e globo; ao seu lado, a rainha exibe os mesmos atributos de poder.\nOu – Um rei sentado em seu trono, segurando uma esfera e um cetro.",
+    "imagem": "gemeos_9.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "10": {
+    "titulo": "GÊMEOS 10",
+    "frase": "Uma jovem mulher oferece maternalmente uma bebida fresca a uma criança; mais adiante, sobre o caminho, um jovem auxilia um velho a erguer-se do chão.\nOu – Um homem ajudando outro a levantar-se do solo.",
+    "imagem": "gemeos_10.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "11": {
+    "titulo": "GÊMEOS 11",
+    "frase": "Sob um rochedo instala-se um acampamento de ciganos sentados para a refeição; acima deles, uma águia plana próxima de seu ninho, onde se veem três filhotes.\nOu – Uma águia voando sobre três aguiazinhas.",
+    "imagem": "gemeos_11.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "12": {
+    "titulo": "GÊMEOS 12",
+    "frase": "Duas mulheres choram diante de um jovem loureiro quebrado pelo vento, do tronco do qual surge um novo broto.\nOu – Duas mulheres em pé, chorando.",
+    "imagem": "gemeos_12.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "13": {
+    "titulo": "GÊMEOS 13",
+    "frase": "À luz da lua, dois lobos devoram uma carcaça enquanto três corvos empoleirados aguardam os restos.\nOu – Três corvos empoleirados lado a lado.",
+    "imagem": "gemeos_13.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "14": {
+    "titulo": "GÊMEOS 14",
+    "frase": "Na sombra noturna de um bosque, um homem mascarado permanece em pé junto a um cavalo morto; mais adiante, duas raposas devoram galinhas estranguladas.\nOu – Duas raposas devorando galinhas.",
+    "imagem": "gemeos_14.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "15": {
+    "titulo": "GÊMEOS 15",
+    "frase": "Um homem, sentado sobre os calcanhares, tenta quebrar uma grande pedra com um pequeno martelo; encontra-se à beira de um rio cuja ponte foi construída não sobre as águas, mas ao longo da margem.\nOu – Um homem com sete cabeças.",
+    "imagem": "gemeos_15.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "16": {
+    "titulo": "GÊMEOS 16",
+    "frase": "Em uma floresta, uma mulher carrega um feixe de lenha; seus cabelos, soltos, são agitados pelo vento enquanto ela observa o chão, como se buscasse algo. Atrás dela, de modo quase irreal, surge um homem de duas cabeças, cada qual com expressão distinta.\nOu – Uma ponte construída ao lado da correnteza.",
+    "imagem": "gemeos_16.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "17": {
+    "titulo": "GÊMEOS 17",
+    "frase": "Um homem sem mãos está sentado diante de uma mesa onde repousam belas frutas e belos livros; a seus pés, um vaso quebrado deixa escapar toda a água.\nOu – Um homem em pé, sem mãos.",
+    "imagem": "gemeos_17.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "18": {
+    "titulo": "GÊMEOS 18",
+    "frase": "Uma raposa corre com todas as suas forças, como se desejasse ultrapassar uma flecha lançada por mão invisível.\nOu – Uma raposa correndo com todas as suas forças.",
+    "imagem": "gemeos_18.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "19": {
+    "titulo": "GÊMEOS 19",
+    "frase": "Um pobre miserável segue seu caminho com coragem, afastando-se de uma bela propriedade que se entrevê ao longe; sua mulher, ainda guardando certa elegância, custa a abandoná-la.\nOu – Um mendigo caminhando com seu alforje.",
+    "imagem": "gemeos_19.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "20": {
+    "titulo": "GÊMEOS 20",
+    "frase": "Em uma paisagem inquietante, dois homens trajados para a montaria seguram cada qual seu cavalo pelas rédeas — um branco, outro escuro — enquanto três serpentes se afastam lateralmente.\nOu – Três serpentes estendidas no solo.",
+    "imagem": "gemeos_20.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "21": {
+    "titulo": "GÊMEOS 21",
+    "frase": "Um jovem, sentado despreocupadamente sobre seu cavalo, estende um recipiente a outro jovem, rico e indiferente, que tenta lançar moedas com destreza, deixando algumas cair ao chão.\nOu – Um homem sentado de lado sobre um cavalo.",
+    "imagem": "gemeos_21.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "22": {
+    "titulo": "GÊMEOS 22",
+    "frase": "Uma jovem mulher repousa sob uma árvore e alimenta aves que se reúnem familiarmente ao seu redor.\nOu – Duas aves gorjeando sobre o mesmo ramo.",
+    "imagem": "gemeos_22.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "23": {
+    "titulo": "GÊMEOS 23",
+    "frase": "Em uma região deserta, um homem decrépito e curvado, arrastando uma perna e apoiando-se em um bastão, afasta-se de um grande carvalho antigo, retalhado e descascado pelas tempestades.\nOu – Um homem decrépito arrastando-se com um bastão.",
+    "imagem": "gemeos_23.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "24": {
+    "titulo": "GÊMEOS 24",
+    "frase": "Em um jardim, duas mulheres sentadas em um banco conversam tranquilamente, enquanto pardais pipilam ao redor, revolvem a poeira e pousam sobre o encosto.\nOu – Duas mulheres sentadas e conversando.",
+    "imagem": "gemeos_24.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "25": {
+    "titulo": "GÊMEOS 25",
+    "frase": "Cercado por livros familiares, um homem de idade está sentado à sua mesa, lendo ou meditando.\nOu – Um homem com um livro aberto.",
+    "imagem": "gemeos_25.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "26": {
+    "titulo": "GÊMEOS 26",
+    "frase": "Na praça de um mercado, compradores e mercadores se exaltam; cães se mordem e dois homens discutem, batendo o solo com seus bastões.\nOu – Dois cães que se mordem.",
+    "imagem": "gemeos_26.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "27": {
+    "titulo": "GÊMEOS 27",
+    "frase": "À beira-mar, um jovem homem e uma jovem mulher sentam-se sobre rochedos, chorando.\nOu – Uma mulher em pé, chorando.",
+    "imagem": "gemeos_27.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "28": {
+    "titulo": "GÊMEOS 28",
+    "frase": "Um semeador avança solitário, lançando grãos sobre uma terra bem preparada.\nOu – Dois touros de tamanhos desiguais.",
+    "imagem": "gemeos_28.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "29": {
+    "titulo": "GÊMEOS 29",
+    "frase": "Sob um céu sombrio de nuvens em fuga, uma revoada de corvos voa contra o vento, enquanto três cães correm em direções opostas.\nOu – Três cães correndo em sentidos contrários.",
+    "imagem": "gemeos_29.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "30": {
+    "titulo": "GÊMEOS 30",
+    "frase": "Em uma ala isolada de um bosque, dois homens conduzem cada qual um cão preso, vigiando-se mutuamente sem o demonstrar; ao longe, um lobo segue silenciosamente um cordeiro.\nOu – Dois homens conduzindo, cada um, um cão.",
+    "imagem": "gemeos_30.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  }
+},
+
   "cancer": {
     "1": {
       "titulo": "CANCER 1",
@@ -3835,6 +3686,7 @@
     }
   }
 }
+
 
 
 
