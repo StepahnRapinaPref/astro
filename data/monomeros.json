@@ -4,7 +4,12 @@
       "titulo": "ARIES 1",
       "frase": "Um homem de compleição robusta, de membros algo pesados, acha-se de pé, em passo avançado. Na destra brandindo uma clava, sustém a sinistra apoiada ao flanco. Uma pele de animal, ou pano rude lançado sobre o corpo, vela parcialmente sua nudez. Dele emana a imagem de uma força calma, porém firme e irremovível. Ou Um homem que empunha na mão direita uma foice e na esquerda uma atiradeira.",
       "imagem": "aries_1.png",
-
+      "texto": {
+        "figura": "",
+        "comentario": "",
+        "correspondencias": "",
+        "advertencia": ""
+      }
     },
     "2": {
       "titulo": "ARIES 2",
@@ -3979,4 +3984,5 @@
     }
   }
 }
+
 
