@@ -512,9 +512,7 @@
     "imagem": "touro_30.png",
     "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
   }
-}
-
-  },
+ },
   "gemeos": {
     "1": {
       "titulo": "GEMEOS 1",
@@ -3836,4 +3834,5 @@
     }
   }
 }
+
 
