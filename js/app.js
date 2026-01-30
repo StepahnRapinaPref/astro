@@ -100,7 +100,12 @@ async function executarBusca() {
       <h2>${item.titulo}</h2>
       <p>${item.frase}</p>
       <img src="images/monomeros/${item.imagem}" alt="Imagem simbólica do grau">
-
+      <div class="texto">
+        <p><strong>Figura.</strong> ${item.texto.figura}</p>
+        <p><strong>Comentário.</strong> ${item.texto.comentario}</p>
+        <p><strong>Correspondências.</strong> ${item.texto.correspondencias}</p>
+        <p><strong>Advertência.</strong> ${item.texto.advertencia}</p>
+      </div>
     `;
 
     renderizarResultadoAnimado(html);
@@ -266,9 +271,6 @@ if (btnZoomIn && btnZoomOut && typeof lightboxImg !== "undefined") {
     aplicarZoom();
   });
 }
-
-
-
 
 
 
