@@ -332,336 +332,188 @@
     }
   },
   "touro": {
-    "1": {
-      "titulo": "TOURO 1",
-      "frase": "",
-      "imagem": "touro_1.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "2": {
-      "titulo": "TOURO 2",
-      "frase": "",
-      "imagem": "touro_2.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "3": {
-      "titulo": "TOURO 3",
-      "frase": "",
-      "imagem": "touro_3.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "4": {
-      "titulo": "TOURO 4",
-      "frase": "",
-      "imagem": "touro_4.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "5": {
-      "titulo": "TOURO 5",
-      "frase": "",
-      "imagem": "touro_5.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "6": {
-      "titulo": "TOURO 6",
-      "frase": "",
-      "imagem": "touro_6.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "7": {
-      "titulo": "TOURO 7",
-      "frase": "",
-      "imagem": "touro_7.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "8": {
-      "titulo": "TOURO 8",
-      "frase": "",
-      "imagem": "touro_8.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "9": {
-      "titulo": "TOURO 9",
-      "frase": "",
-      "imagem": "touro_9.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "10": {
-      "titulo": "TOURO 10",
-      "frase": "",
-      "imagem": "touro_10.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "11": {
-      "titulo": "TOURO 11",
-      "frase": "",
-      "imagem": "touro_11.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "12": {
-      "titulo": "TOURO 12",
-      "frase": "",
-      "imagem": "touro_12.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "13": {
-      "titulo": "TOURO 13",
-      "frase": "",
-      "imagem": "touro_13.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "14": {
-      "titulo": "TOURO 14",
-      "frase": "",
-      "imagem": "touro_14.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "15": {
-      "titulo": "TOURO 15",
-      "frase": "",
-      "imagem": "touro_15.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "16": {
-      "titulo": "TOURO 16",
-      "frase": "",
-      "imagem": "touro_16.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "17": {
-      "titulo": "TOURO 17",
-      "frase": "",
-      "imagem": "touro_17.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "18": {
-      "titulo": "TOURO 18",
-      "frase": "",
-      "imagem": "touro_18.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "19": {
-      "titulo": "TOURO 19",
-      "frase": "",
-      "imagem": "touro_19.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "20": {
-      "titulo": "TOURO 20",
-      "frase": "",
-      "imagem": "touro_20.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "21": {
-      "titulo": "TOURO 21",
-      "frase": "",
-      "imagem": "touro_21.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "22": {
-      "titulo": "TOURO 22",
-      "frase": "",
-      "imagem": "touro_22.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "23": {
-      "titulo": "TOURO 23",
-      "frase": "",
-      "imagem": "touro_23.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "24": {
-      "titulo": "TOURO 24",
-      "frase": "",
-      "imagem": "touro_24.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "25": {
-      "titulo": "TOURO 25",
-      "frase": "",
-      "imagem": "touro_25.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "26": {
-      "titulo": "TOURO 26",
-      "frase": "",
-      "imagem": "touro_26.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "27": {
-      "titulo": "TOURO 27",
-      "frase": "",
-      "imagem": "touro_27.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "28": {
-      "titulo": "TOURO 28",
-      "frase": "",
-      "imagem": "touro_28.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "29": {
-      "titulo": "TOURO 29",
-      "frase": "",
-      "imagem": "touro_29.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    },
-    "30": {
-      "titulo": "TOURO 30",
-      "frase": "",
-      "imagem": "touro_30.png",
-      "texto": {
-        "figura": "",
-        "comentario": "",
-        "correspondencias": "",
-        "advertencia": ""
-      }
-    }
+  "1": {
+    "titulo": "TOURO 1",
+    "frase": "Uma mulher ereta, à maneira de uma Vitória, sustém uma espada cuja ponta se crava na areia; enquanto isso, um atleta, segurando um touro pelos chifres, o derruba com graça e mestria.\nOu – Um atleta que abate um touro segurando-o pelos chifres.",
+    "imagem": "touro_1.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "2": {
+    "titulo": "TOURO 2",
+    "frase": "Um homem exausto, ou à beira da morte, jaz estendido no solo, sob os derradeiros raios do sol que se põe entre as nuvens. Próximo a ele passa uma mulher reclinada indolentemente sobre uma espécie de pequeno carro, semi-vestida, deixando-se puxar lentamente por um cavalo.\nOu – Uma mulher pendurada à cauda de um cavalo.",
+    "imagem": "touro_2.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "3": {
+    "titulo": "TOURO 3",
+    "frase": "Uma mulher de idade madura, rude e campestre, colhe belas uvas e as deposita em um cesto já repleto de frutos vistosos, enquanto uma velha de modos ambíguos se oculta sob um véu.\nOu – Uma mulher idosa, semi-velada.",
+    "imagem": "touro_3.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "4": {
+    "titulo": "TOURO 4",
+    "frase": "Um leão enfurecido, rugindo, estende a pata em direção a um archote em chamas que excita ainda mais sua cólera; ao lado, uma figura semelhante a uma Górgona, de semblante exaltado, brandindo um chicote em gesto desordenado.\nOu – Uma mulher segurando um chicote na mão direita.",
+    "imagem": "touro_4.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "5": {
+    "titulo": "TOURO 5",
+    "frase": "Um pomar cujas árvores vergam sob o peso dos frutos; adiante, um campo onde ovelhas pastam próximas a um homem de semblante bondoso que corta lenha; sob um telheiro, um boi repousa deitado.\nOu – Um boi abaixado junto à sua manjedoura.",
+    "imagem": "touro_5.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "6": {
+    "titulo": "TOURO 6",
+    "frase": "Uma sala de conferência. Um homem no auge de sua glória ergue-se sobre o estrado, trazendo um rolo de papel na mão e a fronte cingida por louros. À borda do estrado encontra-se um homem de três cabeças, cada qual voltada para uma direção distinta, significando a vastidão de seu entendimento.\nOu – Um homem de três cabeças, estendendo a mão direita.",
+    "imagem": "touro_6.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "7": {
+    "titulo": "TOURO 7",
+    "frase": "Em um recanto de parque pasta tranquilamente uma vaca doméstica; um pouco mais adiante, uma bela e graciosa mulher contempla a si mesma em um espelho de mão.\nOu – Uma bela mulher em pé.",
+    "imagem": "touro_7.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "8": {
+    "titulo": "TOURO 8",
+    "frase": "À margem de um rio engrossado pelas chuvas, um velho esforça-se por retirar alguns ramos, enquanto sua mulher, sentada sobre uma grande pedra, olha em torno sem realmente ver, absorta em silenciosa aflição.\nOu – Uma mulher triste, sentada sobre um monte de pedras.",
+    "imagem": "touro_8.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "9": {
+    "titulo": "TOURO 9",
+    "frase": "Um homem corpulento, de ar simples e jovial, permanece em pé entre seus animais domésticos, distribuindo-lhes grãos ou observando-os pastar ao seu redor.\nOu – Um homem empurrando diante de si ovelhas e cabras.",
+    "imagem": "touro_9.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "10": {
+    "titulo": "TOURO 10",
+    "frase": "Em um campo, um boi repousa ao sol, enquanto dois melros se empoleiram sobre seu dorso; próximo dali, um belo cão brinca com duas mulheres alegres, não longe de uma serpente.\nOu – Um cão brincando entre duas mulheres.",
+    "imagem": "touro_10.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "11": {
+    "titulo": "TOURO 11",
+    "frase": "Um homem coroado está sentado em um trono, em uma sala repleta de sinais de grande riqueza; sobre um candelabro encontra-se empoleirado um corvo, que lança sobre o rei um olhar carregado de inveja.\nOu – Um corvo empoleirado.",
+    "imagem": "touro_11.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "12": {
+    "titulo": "TOURO 12",
+    "frase": "Uma planta ostenta uma bela flor de cor alaranjada, sobre a qual pousam duas borboletas de asas palpitantes; perto dela, duas mulheres mantêm as mãos entrelaçadas.\nOu – Duas mulheres de mãos dadas.",
+    "imagem": "touro_12.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "13": {
+    "titulo": "TOURO 13",
+    "frase": "Um cão corre velozmente com um osso na boca, fugindo de outro que o persegue para tomá-lo; ao mesmo tempo, duas comadres se insultam, prestes a se agredir.\nOu – Duas mulheres que brigam entre si.",
+    "imagem": "touro_13.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "14": {
+    "titulo": "TOURO 14",
+    "frase": "Uma marcenaria modesta mantém sua porta completamente aberta, mas o dono impede a entrada sustentando um bastão atravessado diante de si.\nOu – Um homem segurando um bastão atravessado.",
+    "imagem": "touro_14.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "15": {
+    "titulo": "TOURO 15",
+    "frase": "Um homem de idade madura, pensativo, está sentado a uma mesa sobre a qual repousam um grande livro e instrumentos científicos. Pela janela, observa um bando de sete íbis que foge em rápido voo.\nOu – Sete íbis voando apressadamente.",
+    "imagem": "touro_15.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "16": {
+    "titulo": "TOURO 16",
+    "frase": "À borda de uma mata aventuram-se duas vacas brancas, alheias ao perigo iminente de um tigre prestes a saltar. Atrás de uma moita florida, uma mulher inclina duas rosas recém-colhidas, uma clara e outra escura.\nOu – Uma mulher segurando uma rosa de ouro e uma rosa de prata, inclinadas uma sobre a outra.",
+    "imagem": "touro_16.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "17": {
+    "titulo": "TOURO 17",
+    "frase": "Em paisagem áspera corre um rio contra o qual um homem se obstina em nadar, enquanto, na margem, um touro preso a uma árvore luta desesperadamente por sua liberdade.\nOu – Um touro preso pelo corpo a uma árvore.",
+    "imagem": "touro_17.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "18": {
+    "titulo": "TOURO 18",
+    "frase": "Dois touros investem um contra o outro de cabeças baixas; em outro ponto da fazenda, dois bodes se enfrentam com os chifres projetados à frente.\nOu – Dois touros golpeando-se com as cabeças.",
+    "imagem": "touro_18.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "19": {
+    "titulo": "TOURO 19",
+    "frase": "Uma mulher, levemente vestida, repousa em um campo florido; à margem de um riacho, uma de suas companheiras verte a água de um vaso em outro.\nOu – Uma mulher transvasando água de um vaso para outro.",
+    "imagem": "touro_19.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "20": {
+    "titulo": "TOURO 20",
+    "frase": "Em uma cozinha rural, um corvo encontra-se empoleirado sobre um pote de água, observando dois cães que se mordem furiosamente.\nOu – Dois cães que se mordem.",
+    "imagem": "touro_20.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "21": {
+    "titulo": "TOURO 21",
+    "frase": "Uma coruja empoleirada em uma árvore espia uma serpente enrolada em um galho; abaixo, um urso se enfia sob a mata, olhando de lado e mostrando os dentes.\nOu – Um urso olhando para trás e exibindo os dentes.",
+    "imagem": "touro_21.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "22": {
+    "titulo": "TOURO 22",
+    "frase": "Em um campo ergue-se uma bela árvore, em cujo cume se fixa um enxame de abelhas, cujo voo a circunda; sob a árvore, dois homens estendem cordialmente as mãos um ao outro.\nOu – Três homens segurando-se pelas mãos.",
+    "imagem": "touro_22.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "23": {
+    "titulo": "TOURO 23",
+    "frase": "Um rei está sentado em seu trono, cercado de cortesãos; atrás dele, uma forma velada de negro se mantém em silêncio, enquanto à frente um homem cai de costas.\nOu – Um homem tombado sobre o dorso.",
+    "imagem": "touro_23.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "24": {
+    "titulo": "TOURO 24",
+    "frase": "O leito seco de um rio abriga corvos que buscam restos de alimento; um pobre homem, apoiado em uma cana que se dobra, parece disputar-lhes o sustento.\nOu – Um homem curvado, apoiando-se em uma cana vergada.",
+    "imagem": "touro_24.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "25": {
+    "titulo": "TOURO 25",
+    "frase": "Sobre um planalto, um leão rasteja com prudência, sem servilismo, diante de um homem ereto e dominador, apoiado em um bastão sólido.\nOu – Um homem em pé, apoiado em um bastão.",
+    "imagem": "touro_25.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "26": {
+    "titulo": "TOURO 26",
+    "frase": "Uma mulher loira, conduzindo uma criança pela mão, colhe flores ao longo de um caminho; ao final dele, um homem bondoso estende a mão para ajudá-las a atravessar um vau.\nOu – Um homem em pé, com a mão estendida.",
+    "imagem": "touro_26.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "27": {
+    "titulo": "TOURO 27",
+    "frase": "Um alquimista trabalha em seu laboratório entre cadinhos, retortas e instrumentos diversos; sobre a mesa repousa um fragmento de ouro. Pela janela vê-se um campo ceifado, coberto de feixes de trigo.\nOu – Um campo coberto de feixes de trigo.",
+    "imagem": "touro_27.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "28": {
+    "titulo": "TOURO 28",
+    "frase": "Sobre uma pequena elevação ergue-se um pau-de-sebo, no qual um homem tenta subir desajeitadamente, divertindo as crianças que o observam; próximo delas, uma mulher de andar cansado avança puxando um cavalo pela rédea.\nOu – Uma mulher puxando um cavalo pela rédea.",
+    "imagem": "touro_28.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "29": {
+    "titulo": "TOURO 29",
+    "frase": "Um homem robusto, empunhando um chicote, empurra à sua frente dois escravos acorrentados; do portal que acaba de atravessar sai uma mulher sem contenção, arrastando um bode pelos chifres.\nOu – Uma mulher arrastando um bode pelos chifres.",
+    "imagem": "touro_29.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  },
+  "30": {
+    "titulo": "TOURO 30",
+    "frase": "Sob um pórtico florido de bela residência, um homem vestido com trajes suntuosos repousa reclinado em um leito, cercado de servidores e cortesãos; ao redor estende-se um jardim formoso.\nOu – Uma casa de rica arquitetura.",
+    "imagem": "touro_30.png",
+    "texto": { "figura": "", "comentario": "", "correspondencias": "", "advertencia": "" }
+  }
+}
+
   },
   "gemeos": {
     "1": {
@@ -3984,3 +3836,4 @@
     }
   }
 }
+
